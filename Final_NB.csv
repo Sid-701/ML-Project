@@ -1,0 +1,445 @@
+"","Age","Position","Games","Team","Total_Passes","Tackled_Intercept","Duels_Won","Goals_Total","Rating","Weight_kg","Height_cm"
+"1",31,"Defender",23,"Villarreal",696,36,83,0,"High Rating",73,180
+"2",31,"Midfielder",35,"Malaga",1421,115,323,4,"High Rating",75,183
+"4",34,"Defender",10,"Real Sociedad",292,22,57,0,"High Rating",79,189
+"5",34,"Midfielder",7,"Granada CF",203,12,30,0,"Low Rating",71,174
+"6",34,"Midfielder",6,"Real Sociedad",93,5,22,0,"Low Rating",74,180
+"7",34,"Midfielder",32,"Athletic Club",1255,36,111,1,"High Rating",75,176
+"8",31,"Midfielder",24,"Athletic Club",617,32,61,0,"Average Rating",80,187
+"9",34,"Attacker",26,"Athletic Club",326,19,110,1,"Average Rating",63,179
+"10",39,"Attacker",32,"Athletic Club",354,4,220,16,"High Rating",77,181
+"13",30,"Defender",12,"Celta Vigo",470,24,70,0,"High Rating",76,173
+"14",32,"Midfielder",2,"Athletic Club",55,4,8,0,"High Rating",79,184
+"15",35,"Attacker",23,"Alaves",227,10,94,1,"Low Rating",72,182
+"16",37,"Midfielder",17,"Real Betis",268,20,64,1,"Average Rating",74,179
+"17",34,"Midfielder",2,"Granada CF",8,1,3,0,"Low Rating",79,184
+"18",35,"Defender",10,"Valencia",143,5,21,0,"Low Rating",81,182
+"19",38,"Defender",6,"Villarreal",225,7,17,0,"High Rating",84,183
+"20",37,"Midfielder",34,"Villarreal",1942,85,149,5,"High Rating",73,184
+"21",34,"Attacker",22,"Osasuna",306,7,132,4,"Average Rating",78,184
+"22",35,"Attacker",31,"Atletico Madrid",191,2,94,8,"Average Rating",79,186
+"23",35,"Defender",24,"Alaves",643,33,63,2,"Average Rating",75,182
+"24",33,"Defender",22,"Malaga",446,32,67,0,"Low Rating",81,185
+"25",35,"Defender",12,"Osasuna",219,29,29,1,"Low Rating",70,177
+"26",34,"Midfielder",31,"Real Sociedad",1195,85,172,3,"High Rating",79,186
+"27",36,"Defender",22,"Eibar",658,49,105,3,"High Rating",82,188
+"29",32,"Midfielder",17,"Eibar",425,31,70,2,"High Rating",72,178
+"30",35,"Defender",27,"Sporting Gijon",576,70,129,0,"Average Rating",86,192
+"31",35,"Defender",4,"Osasuna",21,4,9,0,"Low Rating",68,177
+"32",35,"Midfielder",21,"Sporting Gijon",562,22,73,2,"Average Rating",66,175
+"33",37,"Midfielder",31,"Espanyol",1036,62,136,1,"Average Rating",76,181
+"35",34,"Midfielder",31,"Espanyol",1016,19,138,3,"Average Rating",72,173
+"36",30,"Midfielder",5,"Eibar",32,1,9,0,"Low Rating",70,180
+"37",30,"Midfielder",25,"Granada CF",483,25,100,2,"Low Rating",68,179
+"38",36,"Midfielder",21,"Espanyol",252,6,59,3,"Low Rating",72,176
+"40",34,"Attacker",1,"Atletico Madrid",2,0,2,0,"Average Rating",78,180
+"41",28,"Defender",4,"Espanyol",45,6,19,0,"Low Rating",74,180
+"42",38,"Defender",13,"Barcelona",684,15,35,1,"High Rating",82,189
+"43",38,"Defender",4,"Villarreal",83,5,6,0,"Low Rating",71,176
+"44",35,"Midfielder",3,"Atletico Madrid",98,8,15,0,"High Rating",73,177
+"45",31,"Defender",16,"Granada CF",362,43,50,0,"High Rating",76,182
+"46",32,"Defender",6,"Granada CF",127,4,30,0,"Low Rating",78,178
+"47",33,"Defender",3,"Real Madrid",103,1,5,0,"High Rating",66,178
+"48",27,"Attacker",25,"Sporting Gijon",175,1,36,4,"Low Rating",68,177
+"49",34,"Midfielder",19,"Real Sociedad",354,19,57,0,"Average Rating",78,180
+"50",38,"Defender",31,"Leganes",741,68,173,1,"Average Rating",78,184
+"51",34,"Midfielder",4,"Malaga",114,3,9,0,"Low Rating",80,186
+"52",33,"Defender",7,"Malaga",207,12,20,0,"Low Rating",79,188
+"53",37,"Defender",1,"Espanyol",8,0,0,0,"Low Rating",90,192
+"54",32,"Defender",11,"Osasuna",155,22,37,0,"Low Rating",76,186
+"55",35,"Midfielder",3,"Osasuna",55,3,20,0,"Average Rating",76,183
+"56",42,"Defender",1,"Malaga",24,3,7,0,"Low Rating",74,186
+"57",34,"Defender",6,"Sevilla",182,10,12,0,"Low Rating",79,180
+"58",33,"Midfielder",22,"Granada CF",326,22,139,5,"Low Rating",68,175
+"59",31,"Attacker",15,"Osasuna",151,3,50,0,"Low Rating",80,182
+"60",32,"Midfielder",12,"Granada CF",364,17,56,0,"Average Rating",80,189
+"61",34,"Attacker",11,"Leganes",150,2,22,1,"Low Rating",67,179
+"62",26,"Midfielder",14,"Osasuna",107,8,26,1,"Low Rating",70,179
+"63",35,"Defender",21,"Granada CF",605,40,53,2,"Average Rating",79,185
+"64",36,"Defender",11,"Las Palmas",516,18,30,0,"Low Rating",79,184
+"65",35,"Defender",27,"Las Palmas",911,40,167,0,"Average Rating",70,180
+"66",32,"Defender",27,"Sporting Gijon",398,29,65,0,"Low Rating",74,180
+"67",27,"Attacker",6,"Eibar",21,0,7,1,"Low Rating",77,178
+"68",35,"Attacker",16,"Sporting Gijon",9,0,2,1,"High Rating",74,184
+"69",35,"Midfielder",26,"Espanyol",845,74,168,1,"High Rating",72,174
+"70",29,"Defender",9,"Eibar",194,15,42,0,"High Rating",67,175
+"71",35,"Midfielder",18,"Barcelona",616,12,84,3,"High Rating",76,177
+"72",31,"Defender",30,"Valencia",958,67,124,2,"High Rating",84,188
+"73",35,"Attacker",18,"Celta Vigo",186,1,35,4,"Average Rating",72,173
+"74",27,"Midfielder",6,"Sporting Gijon",38,1,18,0,"Low Rating",76,179
+"75",32,"Attacker",8,"Sporting Gijon",51,3,34,2,"Low Rating",87,203
+"76",31,"Attacker",20,"Valencia",194,3,99,6,"Average Rating",84,186
+"77",29,"Midfielder",8,"Sporting Gijon",233,5,42,0,"Low Rating",78,189
+"78",34,"Defender",19,"Athletic Club",621,46,101,0,"High Rating",78,182
+"79",34,"Midfielder",29,"Las Palmas",1262,40,171,2,"Average Rating",76,187
+"80",34,"Midfielder",28,"Eibar",395,8,88,7,"Low Rating",78,183
+"82",35,"Midfielder",5,"Las Palmas",79,3,5,0,"Average Rating",73,182
+"83",33,"Midfielder",35,"Athletic Club",945,61,188,4,"Average Rating",78,188
+"85",37,"Defender",26,"Deportivo La Coruna",529,43,123,0,"Average Rating",66,171
+"86",24,"Midfielder",3,"Osasuna",7,1,2,0,"Low Rating",63,174
+"87",36,"Defender",23,"Atletico Madrid",673,32,92,0,"Average Rating",71,181
+"88",35,"Defender",25,"Barcelona",1566,38,116,2,"High Rating",85,194
+"89",30,"Defender",14,"Atletico Madrid",217,32,65,0,"High Rating",76,181
+"90",25,"Midfielder",16,"Celta Vigo",238,5,49,1,"Low Rating",68,180
+"91",30,"Midfielder",30,"Real Madrid",1084,18,145,10,"High Rating",79,176
+"92",30,"Attacker",16,"Las Palmas",304,7,77,3,"High Rating",72,178
+"94",37,"Defender",25,"Barcelona",1534,43,90,1,"High Rating",73,174
+"95",31,"Midfielder",33,"Deportivo La Coruna",1000,14,148,3,"Average Rating",67,169
+"96",31,"Defender",13,"Granada CF",214,11,51,0,"Low Rating",68,171
+"97",33,"Midfielder",19,"Osasuna",208,7,94,0,"Low Rating",74,177
+"98",37,"Attacker",16,"Valencia",177,9,31,1,"High Rating",64,170
+"99",31,"Midfielder",18,"Malaga",609,16,94,3,"High Rating",74,183
+"100",31,"Midfielder",22,"Malaga",292,14,96,0,"Low Rating",68,172
+"101",34,"Defender",19,"Eibar",457,41,68,0,"High Rating",79,188
+"102",32,"Defender",21,"Sporting Gijon",544,32,157,3,"Low Rating",70,171
+"103",34,"Defender",27,"Deportivo La Coruna",853,42,90,1,"High Rating",89,193
+"104",28,"Attacker",2,"Sporting Gijon",6,0,5,0,"Low Rating",78,186
+"105",35,"Attacker",15,"Villarreal",215,4,37,2,"Low Rating",73,183
+"106",34,"Defender",27,"Alaves",713,63,84,2,"High Rating",84,192
+"107",36,"Midfielder",7,"Sporting Gijon",114,8,17,0,"Low Rating",69,165
+"108",32,"Defender",12,"Granada CF",240,32,47,0,"Low Rating",75,179
+"109",27,"Midfielder",8,"Real Sociedad",23,2,8,0,"Low Rating",70,179
+"111",37,"Midfielder",34,"Atletico Madrid",1662,74,206,0,"High Rating",74,181
+"112",26,"Midfielder",1,"Osasuna",1,0,1,0,"Low Rating",80,192
+"113",34,"Midfielder",16,"Leganes",425,30,71,0,"High Rating",73,179
+"114",35,"Attacker",21,"Alaves",168,2,72,3,"Average Rating",79,184
+"115",35,"Midfielder",2,"Osasuna",0,1,4,0,"Low Rating",84,190
+"116",34,"Defender",11,"Eibar",211,17,33,0,"Low Rating",79,182
+"117",33,"Midfielder",14,"Real Betis",245,17,63,1,"High Rating",64,170
+"119",38,"Defender",34,"Atletico Madrid",1465,63,268,3,"High Rating",77,181
+"120",36,"Attacker",35,"Barcelona",653,11,105,29,"High Rating",86,182
+"121",30,"Midfielder",34,"Leganes",809,25,323,5,"Low Rating",83,187
+"122",35,"Midfielder",28,"Eibar",486,25,145,3,"Average Rating",63,169
+"123",34,"Attacker",14,"Villarreal",141,6,61,2,"Average Rating",72,180
+"124",34,"Midfielder",10,"Sevilla",285,4,30,2,"High Rating",79,184
+"125",34,"Midfielder",4,"Sevilla",105,2,13,1,"Average Rating",66,172
+"126",39,"Midfielder",23,"Barcelona",1008,12,98,0,"High Rating",68,171
+"127",28,"Midfielder",22,"Granada CF",602,25,61,0,"Low Rating",73,182
+"128",31,"Attacker",11,"Deportivo La Coruna",91,6,23,0,"Average Rating",80,180
+"129",31,"Defender",2,"Granada CF",18,1,2,0,"Low Rating",65,175
+"130",34,"Midfielder",32,"Osasuna",648,38,125,7,"Average Rating",72,178
+"131",30,"Midfielder",31,"Celta Vigo",1134,35,168,1,"Average Rating",77,186
+"132",31,"Midfielder",23,"Deportivo La Coruna",527,13,80,1,"Low Rating",65,171
+"133",34,"Attacker",35,"Real Sociedad",817,10,184,9,"High Rating",73,177
+"134",28,"Midfielder",6,"Alaves",33,2,8,0,"Low Rating",73,175
+"135",34,"Defender",17,"Celta Vigo",809,38,76,1,"High Rating",91,188
+"136",30,"Attacker",20,"Barcelona",151,5,20,6,"High Rating",72,175
+"137",34,"Attacker",19,"Real Madrid",441,18,90,7,"High Rating",81,186
+"138",33,"Defender",25,"Las Palmas",966,26,91,0,"Low Rating",88,177
+"139",30,"Attacker",25,"Leganes",269,4,48,4,"Average Rating",77,181
+"140",28,"Defender",12,"Espanyol",218,16,54,2,"High Rating",79,188
+"141",34,"Defender",25,"Sporting Gijon",624,57,129,0,"Low Rating",71,176
+"142",33,"Midfielder",15,"Osasuna",325,15,60,1,"Low Rating",74,177
+"143",35,"Defender",20,"Sporting Gijon",391,24,77,2,"Average Rating",76,179
+"144",28,"Defender",4,"Sporting Gijon",57,4,9,0,"Low Rating",81,184
+"145",38,"Defender",7,"Deportivo La Coruna",104,11,22,0,"Low Rating",68,171
+"146",28,"Midfielder",8,"Osasuna",146,21,51,0,"Average Rating",75,184
+"147",37,"Midfielder",37,"Eibar",624,35,156,10,"Average Rating",70,183
+"148",40,"Attacker",8,"Granada CF",68,7,26,0,"Average Rating",78,183
+"150",34,"Defender",15,"Las Palmas",484,19,75,0,"Low Rating",66,179
+"151",35,"Midfielder",35,"Sevilla",2512,37,231,2,"High Rating",75,196
+"153",32,"Midfielder",30,"Deportivo La Coruna",1114,46,185,2,"High Rating",77,179
+"155",27,"Attacker",9,"Sporting Gijon",68,1,25,0,"Average Rating",68,176
+"156",27,"Midfielder",10,"Granada CF",355,16,43,0,"Low Rating",75,180
+"157",34,"Midfielder",7,"Osasuna",169,22,22,0,"Low Rating",83,192
+"158",29,"Defender",5,"Osasuna",72,17,20,2,"High Rating",75,180
+"159",28,"Midfielder",31,"Granada CF",1116,55,181,0,"Average Rating",76,185
+"160",39,"Midfielder",29,"Malaga",547,17,101,1,"Average Rating",77,178
+"161",31,"Defender",9,"Athletic Club",126,13,26,0,"Average Rating",73,187
+"162",30,"Attacker",9,"Granada CF",60,1,16,0,"Low Rating",75,177
+"163",40,"Defender",13,"Real Madrid",569,20,78,2,"High Rating",81,188
+"164",32,"Midfielder",22,"Real Madrid",743,12,67,8,"High Rating",75,180
+"165",35,"Defender",30,"Real Madrid",1172,40,122,2,"High Rating",75,174
+"166",32,"Attacker",26,"Villarreal",286,2,79,11,"Average Rating",73,182
+"168",34,"Defender",12,"Valencia",333,33,44,0,"High Rating",83,193
+"169",35,"Defender",16,"Las Palmas",521,23,88,0,"Average Rating",76,179
+"170",33,"Defender",28,"Malaga",595,61,152,2,"Average Rating",70,179
+"171",31,"Attacker",11,"Las Palmas",116,5,28,2,"High Rating",79,180
+"172",26,"Defender",13,"Leganes",194,15,47,0,"Average Rating",73,181
+"173",39,"Attacker",21,"Malaga",190,4,88,3,"Average Rating",76,179
+"174",34,"Midfielder",30,"Leganes",963,59,182,0,"High Rating",73,178
+"175",32,"Defender",26,"Eibar",700,67,118,1,"Average Rating",68,178
+"176",27,"Midfielder",19,"Las Palmas",190,12,63,2,"Average Rating",65,167
+"177",36,"Attacker",34,"Barcelona",1320,7,234,37,"High Rating",72,170
+"178",31,"Attacker",30,"Barcelona",1165,10,343,13,"High Rating",68,175
+"179",27,"Midfielder",4,"Real Betis",79,2,9,0,"Average Rating",70,189
+"180",37,"Defender",28,"Real Madrid",1533,57,155,7,"High Rating",82,184
+"181",26,"Midfielder",23,"Valencia",682,14,99,3,"Average Rating",76,180
+"182",36,"Attacker",31,"Atletico Madrid",272,7,62,12,"High Rating",70,172
+"184",33,"Defender",14,"Real Betis",270,19,37,0,"Low Rating",67,176
+"185",35,"Midfielder",23,"Deportivo La Coruna",693,49,114,3,"High Rating",75,184
+"186",37,"Defender",22,"Sporting Gijon",526,24,72,1,"Average Rating",91,181
+"187",36,"Midfielder",25,"Sporting Gijon",558,25,141,8,"Low Rating",71,177
+"188",27,"Attacker",2,"Sporting Gijon",4,0,0,0,"Low Rating",85,192
+"190",38,"Defender",21,"Sevilla",805,32,79,0,"High Rating",90,190
+"191",33,"Attacker",31,"Sevilla",315,6,48,11,"High Rating",68,170
+"192",30,"Midfielder",30,"Barcelona",866,11,92,3,"Average Rating",84,188
+"193",33,"Midfielder",20,"Real Betis",463,13,61,2,"Low Rating",77,184
+"194",27,"Attacker",19,"Deportivo La Coruna",131,13,75,0,"Low Rating",66,171
+"195",30,"Midfielder",31,"Celta Vigo",1134,35,168,1,"Average Rating",77,186
+"196",31,"Midfielder",23,"Deportivo La Coruna",527,13,80,1,"Low Rating",65,171
+"197",34,"Attacker",35,"Real Sociedad",817,10,184,9,"High Rating",73,177
+"198",28,"Midfielder",6,"Alaves",33,2,8,0,"Low Rating",73,175
+"199",38,"Defender",34,"Atletico Madrid",1465,63,268,3,"High Rating",77,181
+"200",36,"Attacker",35,"Barcelona",653,11,105,29,"High Rating",86,182
+"201",37,"Defender",16,"Real Betis",254,23,52,0,"Average Rating",80,192
+"202",30,"Midfielder",34,"Leganes",809,25,323,5,"Low Rating",83,187
+"203",30,"Defender",15,"Malaga",391,44,39,0,"Average Rating",79,192
+"204",35,"Midfielder",28,"Eibar",486,25,145,3,"Average Rating",63,169
+"205",34,"Midfielder",10,"Sevilla",285,4,30,2,"High Rating",79,184
+"206",26,"Attacker",3,"Malaga",29,0,13,0,"Low Rating",83,185
+"207",28,"Defender",23,"Las Palmas",955,40,85,5,"High Rating",85,187
+"208",34,"Midfielder",4,"Sevilla",105,2,13,1,"Average Rating",66,172
+"209",39,"Midfielder",23,"Barcelona",1008,12,98,0,"High Rating",68,171
+"210",28,"Midfielder",22,"Granada CF",602,25,61,0,"Low Rating",73,182
+"211",31,"Attacker",11,"Deportivo La Coruna",91,6,23,0,"Average Rating",80,180
+"212",31,"Defender",2,"Granada CF",18,1,2,0,"Low Rating",65,175
+"213",34,"Midfielder",32,"Osasuna",648,38,125,7,"Average Rating",72,178
+"214",29,"Defender",2,"Real Sociedad",43,2,5,0,"Low Rating",70,170
+"215",30,"Defender",25,"Barcelona",1586,47,101,1,"High Rating",75,182
+"216",31,"Midfielder",26,"Osasuna",649,30,98,1,"Average Rating",74,179
+"217",32,"Defender",17,"Real Madrid",665,40,114,1,"High Rating",78,184
+"218",29,"Attacker",26,"Sevilla",388,12,115,4,"Average Rating",75,189
+"219",36,"Defender",29,"Sevilla",853,48,117,3,"Average Rating",81,180
+"221",27,"Attacker",22,"Real Betis",255,1,123,4,"Average Rating",70,180
+"222",32,"Attacker",32,"Alaves",439,22,333,7,"High Rating",80,187
+"223",33,"Midfielder",32,"Las Palmas",1043,17,106,4,"Average Rating",73,169
+"224",32,"Midfielder",33,"Villarreal",803,34,144,9,"High Rating",76,182
+"225",32,"Attacker",32,"Villarreal",400,7,86,8,"Average Rating",68,175
+"227",28,"Defender",2,"Barcelona",170,3,6,0,"High Rating",80,182
+"228",26,"Attacker",26,"Granada CF",337,2,97,2,"Low Rating",68,172
+"229",35,"Midfielder",15,"Leganes",215,8,78,0,"Low Rating",66,175
+"230",32,"Midfielder",3,"Las Palmas",26,1,3,0,"Low Rating",72,180
+"231",26,"Defender",32,"Alaves",760,41,206,1,"High Rating",81,184
+"232",30,"Defender",25,"Malaga",661,77,108,2,"Average Rating",75,186
+"233",38,"Attacker",29,"Real Madrid",616,8,109,25,"High Rating",83,187
+"234",28,"Attacker",29,"Valencia",377,7,116,6,"Average Rating",79,185
+"235",38,"Defender",9,"Real Sociedad",292,17,32,0,"High Rating",78,190
+"236",33,"Defender",23,"Villarreal",34,2,3,1,"Low Rating",72,178
+"237",35,"Attacker",27,"Espanyol",182,2,82,2,"Low Rating",84,183
+"238",35,"Defender",32,"Malaga",1011,58,181,1,"Average Rating",73,174
+"239",35,"Midfielder",24,"Deportivo La Coruna",484,7,68,0,"Average Rating",71,180
+"240",28,"Midfielder",5,"Granada CF",86,3,15,0,"Average Rating",80,184
+"241",34,"Midfielder",32,"Real Betis",951,51,222,1,"High Rating",78,182
+"242",37,"Defender",36,"Osasuna",859,90,221,0,"Low Rating",72,178
+"243",33,"Midfielder",10,"Las Palmas",128,3,23,0,"Low Rating",71,181
+"244",32,"Attacker",10,"Espanyol",70,10,10,0,"Low Rating",75,182
+"245",34,"Defender",15,"Espanyol",395,22,34,0,"Average Rating",88,186
+"246",37,"Midfielder",14,"Leganes",159,4,20,1,"Low Rating",66,171
+"247",29,"Midfielder",16,"Valencia",476,9,44,2,"Low Rating",69,170
+"248",34,"Midfielder",25,"Sporting Gijon",382,8,87,2,"Average Rating",70,170
+"249",36,"Midfielder",22,"Deportivo La Coruna",334,11,116,0,"Low Rating",73,175
+"250",35,"Defender",31,"Villarreal",1064,43,178,1,"High Rating",62,171
+"251",31,"Attacker",35,"Athletic Club",862,15,213,7,"High Rating",65,170
+"252",32,"Defender",34,"Eibar",1058,72,179,1,"High Rating",89,189
+"253",28,"Attacker",29,"Osasuna",383,51,188,1,"Low Rating",73,175
+"254",31,"Defender",22,"Osasuna",435,64,115,0,"Average Rating",81,186
+"255",29,"Defender",25,"Osasuna",481,54,110,1,"Average Rating",72,185
+"256",26,"Attacker",1,"Osasuna",2,0,1,0,"Low Rating",69,178
+"257",28,"Midfielder",23,"Leganes",401,8,46,2,"Low Rating",68,170
+"258",29,"Attacker",38,"Athletic Club",526,14,169,5,"Low Rating",81,186
+"260",31,"Midfielder",25,"Real Betis",417,14,101,1,"Low Rating",73,178
+"261",32,"Defender",28,"Eibar",159,14,63,1,"Low Rating",65,170
+"262",34,"Attacker",24,"Eibar",266,8,93,7,"Average Rating",79,186
+"264",36,"Defender",21,"Valencia",625,30,92,3,"High Rating",80,188
+"265",29,"Midfielder",26,"Sporting Gijon",672,11,87,2,"Average Rating",71,176
+"267",34,"Defender",27,"Valencia",968,58,108,4,"High Rating",90,189
+"268",31,"Defender",23,"Real Betis",448,19,110,2,"Low Rating",86,189
+"269",34,"Midfielder",32,"Celta Vigo",864,23,154,3,"Average Rating",74,181
+"270",37,"Midfielder",1,"Leganes",31,1,4,0,"Low Rating",71,174
+"271",27,"Attacker",18,"Valencia",91,1,23,1,"Low Rating",71,168
+"272",30,"Defender",17,"Granada CF",460,32,77,1,"Average Rating",84,188
+"274",35,"Attacker",13,"Celta Vigo",118,1,56,1,"Average Rating",66,174
+"276",31,"Attacker",23,"Celta Vigo",197,4,39,4,"Average Rating",79,185
+"277",28,"Attacker",30,"Celta Vigo",481,10,129,3,"Average Rating",64,171
+"278",38,"Defender",11,"Leganes",227,36,55,0,"Low Rating",64,175
+"280",27,"Defender",15,"Atletico Madrid",394,22,84,0,"High Rating",79,184
+"281",29,"Defender",35,"Valencia",723,57,221,1,"Average Rating",74,182
+"282",28,"Attacker",17,"Villarreal",78,1,20,2,"Average Rating",70,174
+"283",29,"Defender",4,"Osasuna",68,5,10,0,"Low Rating",80,191
+"285",32,"Attacker",5,"Leganes",20,0,11,0,"Low Rating",69,176
+"286",30,"Attacker",28,"Osasuna",355,3,116,7,"Average Rating",80,190
+"288",35,"Defender",16,"Leganes",399,38,82,1,"High Rating",83,192
+"290",34,"Attacker",21,"Sevilla",303,1,50,6,"High Rating",79,183
+"291",36,"Midfielder",28,"Las Palmas",594,18,127,10,"High Rating",77,186
+"292",33,"Midfielder",11,"Villarreal",98,6,21,0,"Low Rating",74,179
+"293",34,"Defender",13,"Valencia",284,32,41,0,"Average Rating",85,186
+"294",34,"Attacker",30,"Sevilla",712,10,202,7,"High Rating",82,187
+"295",31,"Defender",17,"Real Betis",442,34,78,0,"Average Rating",78,181
+"296",27,"Midfielder",3,"Granada CF",17,0,7,0,"Low Rating",75,181
+"297",32,"Defender",5,"Sevilla",185,12,19,0,"High Rating",75,185
+"298",26,"Defender",30,"Espanyol",806,50,155,0,"Average Rating",72,180
+"300",41,"Defender",22,"Las Palmas",975,37,81,1,"Average Rating",80,183
+"301",32,"Midfielder",10,"Deportivo La Coruna",110,3,40,2,"Low Rating",72,173
+"302",32,"Attacker",3,"Las Palmas",8,0,2,0,"Low Rating",68,173
+"303",27,"Midfielder",23,"Villarreal",518,19,87,0,"High Rating",82,190
+"304",30,"Midfielder",16,"Atletico Madrid",318,19,54,1,"High Rating",77,185
+"305",28,"Defender",17,"Sevilla",724,25,82,0,"High Rating",81,186
+"306",29,"Defender",33,"Athletic Club",1343,63,170,2,"High Rating",86,189
+"308",30,"Defender",23,"Real Madrid",975,38,93,1,"High Rating",81,191
+"309",31,"Midfielder",25,"Real Madrid",907,43,194,4,"High Rating",84,185
+"310",27,"Midfielder",35,"Granada CF",846,31,187,5,"Average Rating",71,178
+"312",29,"Midfielder",27,"Real Madrid",944,21,166,1,"High Rating",78,177
+"313",30,"Defender",17,"Barcelona",736,20,75,0,"Average Rating",74,178
+"314",33,"Midfielder",11,"Granada CF",318,11,75,1,"High Rating",66,171
+"316",29,"Midfielder",6,"Malaga",192,7,27,0,"Average Rating",72,180
+"317",25,"Defender",2,"Granada CF",74,7,12,0,"High Rating",73,175
+"318",29,"Defender",21,"Malaga",524,39,98,0,"Average Rating",73,179
+"319",27,"Midfielder",25,"Espanyol",629,18,76,0,"Average Rating",77,184
+"320",28,"Midfielder",7,"Celta Vigo",57,1,6,1,"Low Rating",73,175
+"321",27,"Attacker",2,"Villarreal",1,0,2,0,"Low Rating",76,183
+"323",34,"Defender",26,"Barcelona",1310,30,70,1,"High Rating",68,170
+"324",31,"Defender",32,"Barcelona",1384,48,160,0,"High Rating",68,178
+"325",35,"Midfielder",33,"Barcelona",1971,47,178,0,"High Rating",76,189
+"326",31,"Defender",23,"Real Madrid",1050,45,133,0,"High Rating",73,173
+"327",33,"Defender",28,"Real Madrid",1121,46,126,2,"High Rating",76,180
+"328",28,"Defender",15,"Real Sociedad",404,11,56,0,"Low Rating",66,176
+"329",27,"Attacker",23,"Real Madrid",494,10,70,3,"High Rating",76,182
+"330",27,"Midfielder",30,"Real Betis",1123,57,303,2,"High Rating",70,179
+"331",33,"Midfielder",29,"Real Madrid",1910,31,147,3,"High Rating",76,183
+"332",38,"Midfielder",25,"Real Madrid",1217,43,119,1,"High Rating",66,172
+"333",32,"Midfielder",33,"Real Madrid",526,9,119,2,"High Rating",70,173
+"334",36,"Attacker",29,"Real Madrid",519,3,62,11,"High Rating",81,185
+"335",30,"Attacker",8,"Real Madrid",9,0,8,1,"Low Rating",76,180
+"336",32,"Attacker",19,"Valencia",307,4,70,5,"High Rating",77,182
+"337",27,"Midfielder",32,"Malaga",1072,40,147,6,"Average Rating",67,178
+"338",31,"Midfielder",34,"Sevilla",772,25,120,8,"Average Rating",70,174
+"339",29,"Defender",30,"Celta Vigo",1003,62,135,0,"Average Rating",70,175
+"340",29,"Defender",9,"Real Sociedad",177,12,19,0,"Low Rating",71,180
+"342",34,"Midfielder",30,"Sevilla",999,19,209,6,"High Rating",80,185
+"343",34,"Defender",29,"Deportivo La Coruna",898,53,94,1,"High Rating",80,185
+"344",34,"Midfielder",31,"Las Palmas",1691,10,190,7,"High Rating",66,171
+"345",30,"Defender",25,"Leganes",665,67,152,1,"High Rating",78,180
+"346",30,"Attacker",37,"Deportivo La Coruna",290,4,151,12,"Average Rating",78,180
+"347",27,"Attacker",3,"Sevilla",6,0,2,1,"Average Rating",72,185
+"348",30,"Defender",5,"Celta Vigo",112,10,21,1,"Low Rating",77,175
+"349",28,"Midfielder",2,"Las Palmas",2,1,2,0,"Low Rating",70,180
+"350",33,"Midfielder",34,"Real Sociedad",1975,118,236,1,"High Rating",75,179
+"351",26,"Midfielder",4,"Real Sociedad",133,1,16,0,"Average Rating",73,181
+"352",26,"Attacker",38,"Real Sociedad",792,22,155,2,"Average Rating",78,181
+"353",28,"Attacker",30,"Malaga",493,14,103,14,"High Rating",71,175
+"354",36,"Defender",22,"Eibar",541,48,118,0,"Average Rating",76,178
+"355",31,"Midfielder",36,"Sporting Gijon",1125,71,267,2,"Average Rating",74,183
+"357",32,"Defender",32,"Atletico Madrid",760,68,117,1,"High Rating",81,187
+"358",29,"Midfielder",33,"Atletico Madrid",927,58,247,4,"High Rating",76,184
+"359",31,"Midfielder",36,"Atletico Madrid",2117,49,172,4,"High Rating",77,176
+"360",28,"Attacker",31,"Atletico Madrid",353,11,100,4,"Average Rating",68,171
+"361",32,"Attacker",36,"Atletico Madrid",1005,18,146,16,"High Rating",73,176
+"362",31,"Attacker",26,"Real Madrid",282,3,94,15,"High Rating",84,190
+"363",28,"Midfielder",32,"Alaves",1522,86,213,0,"High Rating",74,184
+"364",34,"Midfielder",36,"Valencia",1905,41,247,5,"High Rating",74,182
+"365",38,"Attacker",10,"Villarreal",173,2,41,4,"High Rating",74,180
+"366",31,"Defender",1,"Valencia",25,4,4,0,"Average Rating",82,184
+"367",32,"Defender",26,"Real Betis",867,60,113,2,"High Rating",78,184
+"368",35,"Midfielder",31,"Sevilla",785,33,123,7,"High Rating",80,190
+"369",30,"Midfielder",35,"Atletico Madrid",686,14,158,10,"Average Rating",73,181
+"370",32,"Defender",31,"Alaves",968,45,115,0,"Average Rating",61,176
+"371",27,"Midfielder",8,"Real Betis",65,2,26,0,"Low Rating",66,173
+"372",30,"Midfielder",5,"Leganes",40,1,21,2,"High Rating",67,175
+"373",28,"Attacker",12,"Real Sociedad",40,0,26,3,"Average Rating",72,180
+"374",28,"Defender",3,"Espanyol",12,8,3,0,"Low Rating",75,180
+"375",29,"Defender",18,"Granada CF",508,51,79,0,"Average Rating",80,182
+"377",32,"Midfielder",31,"Real Sociedad",511,7,55,0,"Average Rating",65,176
+"378",42,"Midfielder",28,"Real Betis",637,13,92,3,"Average Rating",75,179
+"379",34,"Defender",28,"Villarreal",1111,61,96,1,"High Rating",95,184
+"380",32,"Midfielder",37,"Villarreal",1631,28,178,5,"High Rating",75,178
+"381",31,"Attacker",37,"Espanyol",762,30,243,13,"High Rating",77,180
+"382",32,"Defender",36,"Real Betis",1020,100,200,1,"High Rating",82,187
+"383",32,"Defender",34,"Real Sociedad",1563,61,154,3,"High Rating",76,182
+"384",32,"Defender",29,"Valencia",852,63,190,2,"Average Rating",73,175
+"385",39,"Midfielder",6,"Espanyol",105,3,12,0,"Low Rating",71,178
+"386",32,"Attacker",28,"Real Sociedad",495,7,90,12,"High Rating",93,189
+"387",30,"Attacker",35,"Real Sociedad",337,3,58,11,"Low Rating",69,172
+"388",34,"Defender",26,"Alaves",709,56,94,2,"High Rating",80,185
+"389",28,"Midfielder",1,"Real Sociedad",31,2,3,0,"Low Rating",64,179
+"390",26,"Attacker",6,"Athletic Club",10,1,6,0,"Low Rating",86,184
+"391",31,"Attacker",35,"Athletic Club",862,15,213,7,"High Rating",65,170
+"392",32,"Defender",34,"Eibar",1058,72,179,1,"High Rating",89,189
+"393",28,"Attacker",29,"Osasuna",383,51,188,1,"Low Rating",73,175
+"394",35,"Defender",23,"Leganes",516,55,139,1,"Average Rating",71,184
+"395",28,"Defender",26,"Athletic Club",998,96,155,0,"High Rating",78,182
+"396",35,"Defender",33,"Athletic Club",790,36,156,1,"Average Rating",76,177
+"397",33,"Defender",35,"Real Sociedad",1371,62,216,3,"Average Rating",79,181
+"398",31,"Defender",31,"Eibar",603,65,160,0,"Average Rating",75,175
+"399",34,"Defender",27,"Athletic Club",846,32,107,1,"Average Rating",77,182
+"400",30,"Defender",25,"Athletic Club",447,15,124,2,"Average Rating",70,180
+"401",33,"Midfielder",36,"Eibar",1401,76,182,1,"High Rating",81,180
+"402",37,"Midfielder",36,"Athletic Club",631,32,318,10,"High Rating",83,184
+"403",28,"Midfielder",23,"Leganes",401,8,46,2,"Low Rating",68,170
+"404",29,"Attacker",38,"Athletic Club",526,14,169,5,"Low Rating",81,186
+"406",26,"Midfielder",11,"Espanyol",80,1,22,0,"Low Rating",63,167
+"407",30,"Midfielder",17,"Sporting Gijon",139,14,21,1,"Average Rating",83,191
+"408",35,"Defender",31,"Villarreal",1064,43,178,1,"High Rating",62,171
+"409",33,"Defender",36,"Villarreal",1162,70,190,0,"High Rating",74,182
+"410",29,"Defender",25,"Osasuna",481,54,110,1,"Average Rating",72,185
+"411",26,"Attacker",1,"Osasuna",2,0,1,0,"Low Rating",69,178
+"412",31,"Midfielder",7,"Deportivo La Coruna",37,2,16,0,"Low Rating",74,177
+"414",31,"Midfielder",16,"Real Betis",602,23,57,1,"High Rating",69,181
+"415",30,"Defender",10,"Alaves",264,10,41,1,"High Rating",83,188
+"416",31,"Midfielder",25,"Real Betis",417,14,101,1,"Low Rating",73,178
+"418",32,"Defender",28,"Eibar",159,14,63,1,"Low Rating",65,170
+"419",29,"Midfielder",26,"Sporting Gijon",672,11,87,2,"Average Rating",71,176
+"420",33,"Midfielder",7,"Villarreal",24,2,8,0,"Low Rating",90,189
+"421",36,"Midfielder",7,"Sporting Gijon",114,8,17,0,"Low Rating",69,165
+"422",26,"Attacker",3,"Malaga",29,0,13,0,"Low Rating",83,185
+"423",34,"Defender",12,"Valencia",333,33,44,0,"High Rating",83,193
+"424",31,"Defender",2,"Alaves",24,3,6,0,"Average Rating",77,185
+"425",32,"Midfielder",12,"Leganes",337,18,46,0,"Average Rating",74,187
+"426",37,"Midfielder",17,"Sporting Gijon",234,15,41,0,"Low Rating",76,182
+"427",42,"Attacker",35,"Real Betis",536,10,66,13,"High Rating",68,169
+"428",33,"Midfielder",19,"Osasuna",307,32,88,0,"Average Rating",78,183
+"429",26,"Midfielder",5,"Malaga",78,5,27,0,"Low Rating",76,182
+"430",31,"Defender",22,"Leganes",526,59,121,0,"Average Rating",74,175
+"431",32,"Midfielder",19,"Celta Vigo",508,9,36,2,"Average Rating",65,180
+"432",33,"Attacker",20,"Eibar",132,11,25,3,"Low Rating",83,190
+"433",32,"Midfielder",13,"Celta Vigo",201,2,52,0,"Low Rating",79,186
+"434",29,"Midfielder",26,"Barcelona",615,9,57,1,"Average Rating",69,176
+"435",28,"Midfielder",33,"Villarreal",597,47,175,2,"Average Rating",67,182
+"436",29,"Defender",27,"Real Betis",612,29,111,1,"Average Rating",68,168
+"437",31,"Defender",25,"Celta Vigo",951,58,94,0,"Average Rating",80,185
+"438",34,"Defender",6,"Barcelona",257,8,19,2,"High Rating",70,177
+"439",33,"Attacker",20,"Deportivo La Coruna",201,2,92,5,"Average Rating",80,192
+"440",27,"Midfielder",1,"Deportivo La Coruna",17,0,5,0,"High Rating",68,178
+"442",33,"Defender",16,"Real Betis",420,41,67,1,"High Rating",83,185
+"444",32,"Midfielder",24,"Malaga",268,16,68,2,"Low Rating",76,179
+"445",34,"Defender",7,"Villarreal",291,15,43,0,"High Rating",74,182
+"447",26,"Midfielder",17,"Eibar",215,16,35,0,"Low Rating",87,191
+"448",30,"Defender",29,"Leganes",489,58,91,1,"Average Rating",80,187
+"449",25,"Defender",15,"Osasuna",217,23,54,0,"Low Rating",70,173
+"450",33,"Attacker",31,"Sevilla",315,6,48,11,"High Rating",68,170
+"451",30,"Midfielder",30,"Barcelona",866,11,92,3,"Average Rating",84,188
+"452",35,"Attacker",1,"Deportivo La Coruna",21,0,2,1,"High Rating",82,180
+"453",29,"Defender",18,"Real Betis",389,13,54,2,"Low Rating",61,173
+"454",33,"Midfielder",20,"Real Betis",463,13,61,2,"Low Rating",77,184
+"455",38,"Midfielder",8,"Deportivo La Coruna",249,10,31,1,"Average Rating",71,177
+"456",35,"Midfielder",23,"Deportivo La Coruna",693,49,114,3,"High Rating",75,184
+"457",37,"Defender",22,"Sporting Gijon",526,24,72,1,"Average Rating",91,181
+"458",37,"Midfielder",28,"Osasuna",582,18,119,0,"Low Rating",69,175
+"459",34,"Midfielder",29,"Alaves",487,11,70,5,"Average Rating",72,177
+"460",34,"Defender",18,"Alaves",342,19,61,0,"Low Rating",74,180
+"461",36,"Attacker",31,"Atletico Madrid",272,7,62,12,"High Rating",70,172
+"462",38,"Defender",21,"Sevilla",805,32,79,0,"High Rating",90,190
+"463",27,"Attacker",19,"Deportivo La Coruna",131,13,75,0,"Low Rating",66,171
+"464",34,"Attacker",6,"Real Betis",34,0,7,0,"Low Rating",62,180
+"465",28,"Defender",4,"Sporting Gijon",57,4,9,0,"Low Rating",81,184
+"466",31,"Attacker",25,"Real Betis",275,6,137,3,"Average Rating",82,190
+"467",27,"Defender",6,"Real Betis",161,16,25,0,"Average Rating",74,185
+"468",36,"Defender",10,"Athletic Club",258,15,32,0,"High Rating",78,186
+"470",28,"Defender",12,"Espanyol",218,16,54,2,"High Rating",79,188
+"471",34,"Defender",25,"Sporting Gijon",624,57,129,0,"Low Rating",71,176
+"472",35,"Defender",20,"Sporting Gijon",391,24,77,2,"Average Rating",76,179
+"473",27,"Attacker",2,"Sporting Gijon",4,0,0,0,"Low Rating",85,192
+"474",38,"Defender",7,"Deportivo La Coruna",104,11,22,0,"Low Rating",68,171
+"475",34,"Defender",11,"Eibar",211,17,33,0,"Low Rating",79,182
+"476",28,"Midfielder",8,"Osasuna",146,21,51,0,"Average Rating",75,184
+"478",34,"Defender",27,"Valencia",968,58,108,4,"High Rating",90,189
+"479",30,"Midfielder",21,"Sevilla",609,32,64,0,"Average Rating",75,177
+"480",27,"Attacker",18,"Valencia",91,1,23,1,"Low Rating",71,168
+"482",29,"Defender",4,"Osasuna",68,5,10,0,"Low Rating",80,191
+"483",38,"Midfielder",2,"Sevilla",157,1,5,0,"Low Rating",70,171
+"484",30,"Attacker",28,"Osasuna",355,3,116,7,"Average Rating",80,190
+"485",31,"Attacker",23,"Celta Vigo",197,4,39,4,"Average Rating",79,185
+"486",34,"Midfielder",28,"Leganes",407,21,93,8,"High Rating",65,175
+"487",30,"Attacker",14,"Malaga",81,3,35,3,"Low Rating",68,175
+"488",28,"Midfielder",7,"Celta Vigo",57,1,6,1,"Low Rating",73,175
+"489",28,"Attacker",30,"Celta Vigo",481,10,129,3,"Average Rating",64,171
