@@ -1,0 +1,323 @@
+---
+title: "Naive_Bayes"
+format: html
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+```{r}
+library(tidyverse)  # data manipulation and visualization
+library(modelr)     # provides easy pipeline modeling functions
+library(broom)      # helps to tidy up model outputs
+library(ggplot2)
+```
+
+```{r}
+library(TSP)
+library(data.table)
+library(ggplot2)
+library(Matrix)
+library(tcltk)
+library(dplyr)
+library(devtools)
+library(purrr)
+library(tidyr)
+```
+
+```{r}
+library(naivebayes)
+#Loading required packages
+#install.packages('tidyverse')
+library(tidyverse)
+#install.packages('ggplot2')
+library(ggplot2)
+#install.packages('caret')
+#library(caret)
+#install.packages('caretEnsemble')
+#library(caretEnsemble)
+#install.packages('psych')
+library(psych)
+#install.packages('Amelia')
+#library(Amelia)
+#install.packages('mice')
+#library(mice)
+#install.packages('GGally')
+#library(GGally)
+library(e1071)
+library(arules)
+```
+
+```{r}
+data1<-read.csv("output.csv")
+str(data1)
+cols_to_keep <- c("Age","Position", "Games","Team", "Total_Passes","Tackled_Intercept","Duels_Won","Goals_Total","Rating","Weight_kg","Height_cm")
+
+data <- data1[cols_to_keep]
+```
+
+```{r}
+k <- 3
+
+# Compute the size of each bin
+bin_size <- nrow(data) / k
+
+# Sort the values in ascending order
+sorted_ratings <- sort(data$Rating)
+
+# Create an empty vector to store the bin boundaries
+bin_boundaries <- numeric(k - 1)
+
+# Compute the bin boundaries
+for (i in 1:(k - 1)) {
+  bin_boundaries[i] <- sorted_ratings[round(i * bin_size)]
+}
+
+# Create a new column with the binned ratings
+data$Rating <- cut(data$Rating, breaks = c(-Inf, bin_boundaries, Inf), labels =c("Low Rating","Average Rating","High Rating"))
+
+# Display the result
+head(df)
+```
+
+```{r}
+data <- subset(data, Position != "Goalkeeper")
+```
+
+```{r}
+data$Position <- as.factor(data$Position)
+data$Team <- as.factor(data$Team)
+```
+
+```{r}
+str(data)
+```
+
+```{r}
+table(data$Rating)
+```
+
+```{r}
+write.csv(data, "FINAL_NB.csv")
+```
+
+```{r}
+## Record Data..................
+## MAKE test and train data
+#(Size <- (as.integer(nrow(StudentDF)/4)))  ## Test will be 1/4 of the data
+#(SAMPLE <- sample(nrow(StudentDF), Size))
+
+#(DF_Test_Student<-StudentDF[SAMPLE, ])
+#(DF_Train_Student<-StudentDF[-SAMPLE, ])
+
+(Size <- (as.integer(nrow(data)/4)))  ## Test will be 1/4 of the data
+(SAMPLE <- sample(nrow(data), Size))
+
+(DF_Test <- data[SAMPLE, ])
+(DF_Train<-data[-SAMPLE, ])
+
+```
+
+Their- Decision is label Mine: total_amount
+
+```{r}
+##
+## REMOVE the labels and KEEP THEM
+##   
+## 
+#str(DF_Test_Student$Decision)  ## Notice that the label is called "Decision" and
+## is correctly set to type FACTOR. This is IMPORTANT!!
+#str(DF_Train_Student$Decision)  ## GOOD! Here "Decision" is also type FACTOR
+##Check balance of test dataset
+#table(DF_Test_Student$Decision)
+
+#typeof(DF_Test_travel)
+
+str(DF_Test$Rating)  ## Notice that the label is called "total_amount" and
+## is correctly set to type FACTOR. This is IMPORTANT!!
+str(DF_Train$Rating)  ## GOOD! Here "total_amount" is also type FACTOR 
+##Check balance of test dataset
+table(DF_Test$Rating)
+
+```
+
+```{r}
+
+##################################### REMOVE AND SAVE LABELS...
+## Copy the Labels
+(DF_Test_Labels <- DF_Test$Rating)
+## Remove the labels
+DF_Test_NL<-DF_Test[ , -which(names(DF_Test) %in% c("Rating"))]
+(DF_Test_NL[1:5, 1:5])
+## Check size
+(ncol(DF_Test_NL))
+#(DF_Test_Student_NL)
+## Train...--------------------------------
+## Copy the Labels
+(DF_Train_Labels <- DF_Train$Rating)
+## Remove the labels
+DF_Train_NL<-DF_Train[ , -which(names(DF_Train) %in% c("Rating"))]
+(DF_Train_NL[1:5, 1:5])
+## Check size
+(ncol(DF_Train_NL))
+#(DF_Train_Student_NL)
+
+
+
+
+```
+
+```{r}
+##############################################################
+##
+##                         NAIVE BAYES
+##
+###############################################################
+
+## ----------------------------
+## For Record data, we have:
+##-----------------------------
+## DF_Test_Student_NL  ## Testset
+## DF_Train_Student_NL  ## Training set
+## Label name is "Decision"
+## Test labels:
+## DF_Test_Student_Labels
+## DF_Train_Student_Labels
+######################################
+
+## Just FYI......................if memory or overflow issues....
+## memory.limit()
+#data=DF_Train[,1:5000]
+#(data[1:5, 1:5])
+##
+
+
+##########################################################
+## Record Data----------------------------
+#######################################################
+(NB_e1071_with_laplace<-naiveBayes(DF_Train_NL, DF_Train_Labels, laplace = 1))
+NB_e1071_Pred_with_laplace <- predict(NB_e1071_with_laplace, DF_Test_NL)
+(NB_e1071_Pred_with_laplace)
+
+
+
+(NB_e1071_without_laplace<-naiveBayes(DF_Train_NL, DF_Train_Labels, laplace = 0))
+NB_e1071_Pred_without_laplace <- predict(NB_e1071_without_laplace, DF_Test_NL)
+(NB_e1071_Pred_without_laplace)
+```
+
+With-out Laplace:
+
+Frequency distribution of the prediction:
+
+```{r}
+plot(NB_e1071_Pred_without_laplace)
+```
+
+Train - Confusion Matrix and Accuracy
+
+```{r}
+#Confusion Matrix
+NB_e1071_Pred_train_without_laplace <- predict(NB_e1071_without_laplace, DF_Train_NL)
+(tab1_without_laplace <- table(NB_e1071_Pred_train_without_laplace,DF_Train_Labels))
+```
+
+```{r}
+(Tain_error_without_laplace <- 1 - sum(diag(tab1_without_laplace)) / sum(tab1_without_laplace))
+(Tain_accuracy_without_laplace <- (1- Tain_error_without_laplace) * 100 )
+```
+
+Misclassification is around 12.4%. Training model accuracy is around 87.6%.
+
+Test - Confusion Matrix and Accuracy
+
+```{r}
+#Confusion Matrix
+NB_e1071_Pred_without_laplace <- predict(NB_e1071_without_laplace, DF_Test_NL)
+(tab2_without_laplace <- table(NB_e1071_Pred_without_laplace,DF_Test_Labels))
+```
+
+```{r}
+(Test_error_without_laplace <- 1 - sum(diag(tab2_without_laplace)) / sum(tab2_without_laplace))
+(Test_accuracy_without_laplace <- (1- Test_error_without_laplace) * 100 )
+```
+
+Misclassification is around 11.8%. Training model accuracy is around 88.2%.
+
+------------------------------------------------------------------------
+
+With Laplace:
+
+Frequency distribution of the prediction:
+
+```{r}
+plot(NB_e1071_Pred_with_laplace)
+```
+
+Train - Confusion Matrix and Accuracy
+
+```{r}
+#Confusion Matrix
+NB_e1071_Pred_train_with_laplace <- predict(NB_e1071_with_laplace, DF_Train_NL)
+(tab1_with_laplace <- table(NB_e1071_Pred_train_with_laplace,DF_Train_Labels))
+```
+
+```{r}
+(Tain_error_with_laplace <- 1 - sum(diag(tab1_with_laplace)) / sum(tab1_with_laplace))
+(Tain_accuracy_with_laplace <- (1- Tain_error_with_laplace) * 100 )
+```
+
+Misclassification is around 12.4%. Training model accuracy is around 87.6%.
+
+Test - Confusion Matrix and Accuracy
+
+```{r}
+#Confusion Matrix
+NB_e1071_Pred_with_laplace <- predict(NB_e1071_with_laplace, DF_Test_NL)
+(tab2_with_laplace <- table(NB_e1071_Pred_with_laplace,DF_Test_Labels))
+```
+
+```{r}
+(Test_error_with_laplace <- 1 - sum(diag(tab2_with_laplace)) / sum(tab2_with_laplace))
+(Test_accuracy_with_laplace <- (1- Test_error_with_laplace) * 100 )
+```
+
+Misclassification is around 11.8%. Training model accuracy is around 88.2%.
+
+```{r}
+library('caret')
+library('gplots')
+        
+```
+
+```{r}
+conf_matrix <- confusionMatrix(NB_e1071_Pred_without_laplace, DF_Test_Labels)
+
+# Convert confusion matrix table to matrix format
+heatmap_data <- as.matrix(conf_matrix$table)
+
+# Plot the heatmap with annotations
+heatmap.2(heatmap_data, Rowv = NA, Colv = NA,
+          col = colorRampPalette(c("white", "orange", "red"))(100),
+          trace = "none",
+          main = "Confusion Matrix",
+          labRow = rownames(heatmap_data),
+          labCol = colnames(heatmap_data),
+          cexRow = 0.8,
+          cexCol = 0.8,
+          margins = c(5, 10),
+          keysize = 1.2,
+          key.title = NA,
+          symkey = FALSE,
+          density.info = "none",
+          notecol = "black",
+          notecex = 0.6,
+          cellnote = heatmap_data)
+```
+
+```{r}
+
+```
